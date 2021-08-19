@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+  
+}
+
+
+.content{
+  position: absolute;
+  width: 815px;
+  height: 775px;
+  left: 47px;
+  top: 46px;
+  
+  background: url(i2145mHyP5d0nNf1.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  
+ 
+}
+
+
+
+.p {
+  
+  height: 29px;
+  width: 75px;
+  left: 997px;
+  top: 107px;
+  border-radius: nullpx;
+  text-align: left !important;  
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.forms-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.signup{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 75%;
+  width: 50%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  z-index: 5;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 5rem;
+  transition: all 0.2s 0.7s;
+  overflow: hidden;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+form.sign-up-form {
+  opacity: 0;
+  z-index: 1;
+}
+
+form.sign-in-form {
+  z-index: 2;
+}
+
+.title {
+  font-size: 2.2rem;
+  color: #444;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+.input-field {
+  max-width: 458px;
+  width: 100%;
+  background-color:#E4F1FFC7;
+  margin: 10px 0;
+  height: 52px;
+  border-radius: 6.99px;
+  display: grid;
+  padding: 0 0.4rem;
+  position: relative;
+  text-align: center;
+  
+}
+
+
+
+.input-field i {
+  text-align: center;
+  line-height: 55px;
+  color: #acacac;
+  font-size: 1.1rem;
+  
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+  text-indent: 50px;
+}
+
+
+.social-text {
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;  
+  margin-bottom: 10px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.already{
+  margin-top: 29px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.login{
+  margin-left: 100px;
+  border: none;
+  outline:none;
+  background: none;
+}
+
+.login:hover{
+  cursor: pointer;
+  color: #4d84e2 ;
+}
+
+
+.social-icon {
+  height: 46px;
+  width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.45rem;
+  border-radius: 50%;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  color: #4481eb;
+  border-color: #4481eb;
+}
+
+.btn {
+  width: 150px;
+  background-color: #0075FF;
+  ;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 6.99px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #4d84e2;
+}
+.panels-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.image {
+  width: 100%;
+  
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  text-align: center;
+  z-index: 6;
+}
+
+
+
+
+
+
+.panel h3 {
+  font-weight: 600;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+
+.panel p {
+  font-size: 0.95rem;
+  padding: 0.7rem 0;
+}
+
+.btn.transparent {
+  margin: 0;
+  background: none;
+  border: 2px solid #fff;
+  width: 130px;
+  height: 41px;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+
+@media  screen and (max-width:768px) {
+  .container{
+   
+    min-height: 768px;
+    
+  }
+
+  .panel left-panel{
+    display: none;
+  }
+
+.container:before, .panels-container{
+  display: none;
+}
+
+  .signup{
+    width: 100%;
+    left: 50%;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .login{
+    color: #4481eb ;
+  }
+
+}
